@@ -1,0 +1,10 @@
+# Secrets : ne jamais commiter le .env réel
+.env
+stack.env
+*.bak
+
+# Données persistantes (si le dépôt est cloné directement dans /volume2/docker/appflowy)
+/postgres/
+/minio/
+/redis/
+/backups/
